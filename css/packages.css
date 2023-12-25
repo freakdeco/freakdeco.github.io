@@ -1,0 +1,183 @@
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.service-box {
+    width: 500px; /* Increased box width */
+    padding: 20px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fff; /* Set a background color for the service boxes */
+    color: white;
+    font-size: 16px
+    ;
+}
+
+.service-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    font-size: 1em;
+}
+
+.section-header {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 30px 0;
+    background-color: purple; /* Set the background color for the "Other Services" header */
+    color: #fff; /* Set the text color for the header */
+    padding: 10px; /* Add some padding to the header */
+}
+
+
+.service-box:hover {
+    background-color: purple; /* Change background color on hover */
+     color: #fff; /* Change text color on hover for better contrast */
+}
+
+   
+
+
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 5em;
+}
+
+.service-box {
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fff;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.service-box:hover {
+    background-color: #552d7d; /* Darker purple on hover */
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color:#fff;
+}
+
+p {
+    font-size: 1em;
+    color:#fff;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.service-box {
+    width: 30%;
+    padding: 20px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    background-color: purple;
+    color: #fff;
+    transition: background-color 0.3s, transform 0.2s; /* Add transition for smooth color change and scaling */
+}
+
+.service-box:hover {
+    background-color: #552d7d; /* Darker purple on hover */
+    transform: scale(1.05); /* Scale up the box on hover */
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0;
+}
+
+li {
+    font-size: 1em;
+}
+
+p {
+    font-size: 1em;
+}
+
+/* Base styles for larger screens */
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.service-box {
+    width: 30%;
+    padding: 20px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    background-color: purple;
+    color: #fff;
+    transition: background-color 0.3s, transform 0.2s; /* Add transition for smooth color change and scaling */
+}
+
+.service-box:hover {
+    background-color: #552d7d; /* Darker purple on hover */
+    transform: scale(1.05); /* Scale up the box on hover */
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0;
+}
+
+li {
+    font-size: 1em;
+}
+
+p {
+    font-size: 1em;
+}
+
+/* for smaller screens */
+@media screen and (max-width: 768px) {
+    .service-box {
+        width: 75%;
+    }
+
+    h2 {
+        font-size: 1.2em; 
+    }
+
+    p, li {
+        font-size: 0.9em; 
+    }
+}
